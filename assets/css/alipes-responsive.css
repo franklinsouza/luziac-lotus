@@ -1136,7 +1136,10 @@
   }
 }
 
-@media only screen and (min-width: 1200px) and (max-width: 1442px) {
+@media only screen and (min-width: 1200px) {
+  .hero {
+    background-position: top right;
+  }
 }
 
 /*--------------------------------------------------------------

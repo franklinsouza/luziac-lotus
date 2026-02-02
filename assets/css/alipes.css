@@ -2179,10 +2179,11 @@ ul {
 }
 
 .main-slider-two__title {
+  max-width: 680px;
   position: relative;
   display: block;
-  font-size: 53px;
-  line-height: 67px;
+  font-size: 69px;
+  line-height: 82px;
   font-weight: 300;
   color: var(--alipes-white);
   letter-spacing: 8px;
@@ -2210,6 +2211,7 @@ ul {
 }
 
 .main-slider-two__text {
+  max-width: 680px;
   font-size: 19px;
   color: var(--alipes-base);
   line-height: 30px;
@@ -5991,6 +5993,7 @@ ul {
   background-image: url("../images/lotus/bg-banner.webp");
   background-size: cover;
   background-color: #022353;
+  background-position: top;
   position: relative;
   display: block;
   padding: 93px 0 100px;
@@ -12350,7 +12353,7 @@ body.boxed-wrapper {
   background-image: url("../images/lotus/banner.webp");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: top right;
+  background-position: top 0px right 18%;
   display: flex;
   align-items: center;
 }
