@@ -2220,6 +2220,7 @@ ul {
   letter-spacing: var(--alipes-letter-spacing);
   text-transform: uppercase;
   opacity: 0;
+  text-shadow: 0px 0px 13px hsl(28 27% 7% / 1);
   visibility: hidden;
   -webkit-transform: translateY(120px);
   transform: translateY(120px);
@@ -5286,9 +5287,12 @@ ul {
 # Values one
 --------------------------------------------------------------*/
 .values-one {
+  width: 100%;
+  float: left;
   position: relative;
   display: block;
   z-index: 1;
+  overflow: hidden;
 }
 
 .values-one__wrap {
@@ -5303,6 +5307,7 @@ ul {
   display: block;
   float: left;
   width: 50%;
+  height: 100%;
   min-height: 640px;
   z-index: 1;
 }
@@ -5381,7 +5386,8 @@ ul {
 }
 
 .values-one__points-img img {
-  width: auto;
+  width: 100%;
+  height: 100%;
 }
 
 .values-one__points {
@@ -6073,7 +6079,7 @@ ul {
 }
 
 .cta-one__text {
-  max-width: 430px;
+  max-width: 435px;
   width: 100%;
   color: #fff2ea;
   margin-bottom: 30px;
@@ -6808,11 +6814,13 @@ ul {
   position: relative;
   display: block;
   margin-top: 35px;
+  margin-bottom: 60px;
 }
 
 .new-concept__points li {
   position: relative;
   display: flex;
+  align-items: center;
 }
 
 .new-concept__points li + li {
@@ -12321,7 +12329,7 @@ ul {
 .gallery-carousel-page {
   position: relative;
   display: block;
-  padding: 50px 0 140px;
+  padding: 50px 0 80px;
 }
 
 .gallery-carousel-page .team-one__single {
@@ -12402,4 +12410,13 @@ body.boxed-wrapper {
 }
 .form-msg.error {
   background-color: #e95c5c;
+}
+
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev {
+  background-color: var(--alipes-base);
+  width: 35px;
+  height: 35px;
+  font-size: 25px;
+  color: #FFF;
 }

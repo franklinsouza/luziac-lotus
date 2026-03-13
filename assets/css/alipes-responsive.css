@@ -1214,7 +1214,7 @@
 
 @media only screen and (max-width: 1199px) {
   .main-slider-two:before {
-    background: rgba(26, 21, 14, 0.6);
+    background: rgba(26, 21, 14, 0.8);
   }
 
   .main-menu-two__wrapper {
@@ -1362,5 +1362,11 @@
 
   .main-menu__cart-box {
     margin-right: 0;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .values-one__bg {
+    height: 177%;
   }
 }
