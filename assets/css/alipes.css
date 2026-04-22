@@ -254,6 +254,7 @@ ul {
   padding: 13px 59px 9px;
   transition: all 0.5s linear;
   z-index: 1;
+  border: none;
 }
 
 .thm-btn::before {
@@ -2222,6 +2223,7 @@ ul {
   opacity: 0;
   text-shadow: 0px 0px 13px hsl(28 27% 7% / 1);
   visibility: hidden;
+  margin-bottom: 35px;
   -webkit-transform: translateY(120px);
   transform: translateY(120px);
   -webkit-transition-delay: 1000ms;
